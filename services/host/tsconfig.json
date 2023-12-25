@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist/",
+    // needed for webpack alias configuration
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    // to be able to import package.json
+    "resolveJsonModule": true
+  },
+}

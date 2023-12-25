@@ -1,0 +1,9 @@
+{
+  "name": "monorepo-module-federation-1",
+  "version": "1.0.0",
+  "description": "In this project we will use \"npm workspace\" to manage the monorepository. And we will use \"Webpack module federations\" to manage micro services (micro frontends)",
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ]
+}
